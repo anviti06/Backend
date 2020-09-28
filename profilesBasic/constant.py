@@ -9,7 +9,7 @@ class Page(Enum):
     pg5 = "tell_us_about_you"
 
 class ResponseStruct(Enum):
-    id = "id"
+    id = "ph"
     type = "type"
     val = "value"
     multival = "multipleValue"
@@ -31,22 +31,22 @@ class Type(Enum):
 
 
 class Id(Enum):
-    id1 = "id1"
-    id2 = "id2"
-    id3 = "id3"
-    id4 = "id4"
-    id5 = "id5"
-    id6 = "id6"
-    id7 = "id7"
-    id8 = "id8"
-    id9 = "id9"
-    id10 = "id10"
-    id11 = "id11"
-    id12 = "id12"
-    id13 = "id13"
-    id14 = "id14"
-    id15 = "id15"
-    id16 = "id16"
+    id1 = "ph1"
+    id2 = "ph2"
+    id3 = "ph3"
+    id4 = "ph4"
+    id5 = "ph5"
+    id6 = "ph6"
+    id7 = "ph7"
+    id8 = "ph8"
+    id9 = "ph9"
+    id10 = "ph10"
+    id11 = "ph11"
+    id12 = "ph12"
+    id13 = "ph13"
+    id14 = "ph14"
+    id15 = "ph15"
+    id16 = "ph16"
 
 class Heading(Enum):
     hd1 = "Complete Profile"

@@ -6,9 +6,11 @@ from login.views import (
 )  
 from profilesBasic.views import (
     profileBasic, profileAdvanced,
-    managePhotos , selectSource,
-    aboutYou
+    managePhotos , selectSource, aboutYou
 ) 
+from homescreen.views import(
+    advanceFilter, Filter, suscribeElite
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,6 +28,14 @@ urlpatterns = [
     path('profile/advanced', profileAdvanced),
     path('profile/photos', managePhotos),
     path('profile/photos/source', selectSource),
-    path('profile/about', aboutYou)
+    path('profile/about', aboutYou),
+
+    #homescreen
+    path('home/filter', Filter),
+    path('home/filter/adv', advanceFilter),
+    path('home/elite/subscribe', suscribeElite),
+    
+    
+
     
 ]

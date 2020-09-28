@@ -3,11 +3,8 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'gc16wmw&@f8u0)pei#&xnh5qhpyz)^%v7!vttb%70z9c0xoz81'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -62,7 +59,6 @@ DATABASES = {
         'NAME': database,
     }
 }
-
 
 
 AUTH_PASSWORD_VALIDATORS = [

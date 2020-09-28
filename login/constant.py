@@ -13,7 +13,7 @@ class Page(Enum):
 
 
 class ResponseStruct(Enum):
-    id = "id"
+    id = "ph"
     type = "type"
     val = "value"
 
@@ -26,15 +26,15 @@ class Type(Enum):
     ty5 = "link"
 
 class Id(Enum):
-    id1 = "id1"
-    id2 = "id2"
-    id3 = "id3"
-    id4 = "id4"
-    id5 = "id5"
-    id6 = "id6"
-    id7 = "id7"
-    id8 = "id8"
-    id9 = "id9"
+    id1 = "ph1"
+    id2 = "ph2"
+    id3 = "ph3"
+    id4 = "ph4"
+    id5 = "ph5"
+    id6 = "ph6"
+    id7 = "ph7"
+    id8 = "ph8"
+    id9 = "ph9"
 
 
 class Heading(Enum):

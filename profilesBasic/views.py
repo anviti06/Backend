@@ -11,7 +11,6 @@ from .response import (
     response_about_you    
 )        
 
-
 @api_view(['POST', 'GET'])
 def profileBasic(request):
     if request.method == 'GET':
@@ -21,7 +20,6 @@ def profileBasic(request):
         return HttpResponse(json.dumps(response), content_type = 'application/json')
     else:
         return HttpResponse("false")
-
 
 @api_view(['POST', 'GET'])
 def profileAdvanced(request):
@@ -33,7 +31,6 @@ def profileAdvanced(request):
     else:
         return HttpResponse("false")
 
-
 @api_view(['POST', 'GET'])
 def managePhotos(request):
     if request.method == 'GET':
@@ -44,7 +41,6 @@ def managePhotos(request):
     else:
         return HttpResponse("false")
 
-
 @api_view(['POST', 'GET'])
 def selectSource(request):
     if request.method == 'GET':
@@ -54,7 +50,6 @@ def selectSource(request):
         return HttpResponse(json.dumps(response), content_type = 'application/json')
     else:
         return HttpResponse("false")
-
 
 @api_view(['POST', 'GET'])
 def aboutYou(request):
